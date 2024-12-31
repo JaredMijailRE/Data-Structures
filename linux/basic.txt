@@ -1,8 +1,0 @@
-sudo apt update
-sudo apt install zsh
-chsh -s $(which zsh)
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-gnome-terminal -e htop
-gnome-system-monitor
-gnome-terminal -e nmon
