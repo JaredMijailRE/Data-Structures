@@ -1,18 +1,18 @@
 {
   "configurations": [
     {
-      "name": "windows-gcc-x86",
+      "name": "Linux",
       "includePath": [
         "${workspaceFolder}/**",
-        "${workspaceFolder}/Structuras/conan/**",
-        "C:/Users/JaredM/.conan2/**",
-        "C:/Users/JaredM/AppData/Local/Programs/Python/Python313/**"
+        "/usr/include/python3.13",
+        "/home/jared/Documents/DataStructures/.venv/lib/python3.13/site-packages/pybind11/include",
+        "/usr/lib/zig"
       ],
-      "compilerPath": "C:/MinGW/bin/gcc.exe",
+      "defines": [],
+      "compilerPath": "/usr/bin/g++",
       "cStandard": "c11",
-      "cppStandard": "c++14",
-      "intelliSenseMode": "windows-gcc-x86",
-      "compilerArgs": []
+      "cppStandard": "c++20",
+      "intelliSenseMode": "gcc-x64"
     }
   ],
   "version": 4

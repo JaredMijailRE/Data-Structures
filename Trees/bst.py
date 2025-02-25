@@ -105,3 +105,7 @@ class BST:
                     else:
                         print(indent + "    " + "None")
         _print(self.root)
+        
+        
+    def __str__(self):
+        pass
